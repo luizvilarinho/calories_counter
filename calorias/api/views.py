@@ -36,3 +36,4 @@ class AlimentoDetail(RetrieveAPIView):
     queryset = Calories.objects.all()
     serializer_class = CaloriasSerializer
     lookup_url_kwarg = 'id'
+

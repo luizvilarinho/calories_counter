@@ -88,12 +88,12 @@ DATABASES = {
         'NAME': 'TACO',
         'USER': 'postgres',
         'PASSWORD': 'vila@02100260',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': 'db',
+
     }
 }
 
-
+#'HOST': 'db',
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
